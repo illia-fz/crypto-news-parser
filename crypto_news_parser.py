@@ -9,7 +9,11 @@ def fetch_headlines():
     """
     urls = [
         "https://cointelegraph.com",
-        "https://cryptonews.com"
+        "https://cryptonews.com",
+            "https://decrypt.co",
+    "https://bitcoinmagazine.com",
+    "https://www.coindesk.com",
+
     ]
     headlines = []
     for url in urls:
